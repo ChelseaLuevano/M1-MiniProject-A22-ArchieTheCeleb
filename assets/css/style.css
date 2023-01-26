@@ -1,0 +1,29 @@
+body {
+    background-color: aliceblue;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+
+div {
+    width: 25%;
+    height: 50%;
+
+  }
+
+  @media screen and (max-width: 780px) {
+    /* tablet */
+    div{
+        background-color: orange
+    }
+  }
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+font-weight: bold 
