@@ -1,6 +1,9 @@
-*{
-  
+/* Universal Selector applies to everything */
+/*
+* {
+
 }
+*/
 
 
 body {
@@ -12,18 +15,27 @@ h2,
 h3 {
   text-align: center;
 
+}
+
+  img{
+    max-width: 15%;
+  }
+
+/* the way you start to make your site fluid, is by using percentages for your height and width instead of static pixel sizes. This way when someone resizes their browser window, your html tags will shrink or expand accordingly instead of breaking the page. */  
+/*
 div {
     width: 25%;
     height: 50%;
-
   }
+  */
 
+
+  /*
   @media screen and (max-width: 780px) {
-    /* tablet */
     div{
         background-color: orange
     }
-  }
+  } */
 
 .form {
     display: flex;
@@ -31,4 +43,5 @@ div {
     
 }
 
-font-weight: bold 
+/*
+font-weight: bold */
