@@ -17,9 +17,20 @@ h3 {
 
 }
 
+
+/* Styling of Images on Site */
   img{
+    display: flex;
+    flex-wrap: wrap;
+    flex: initial;
+    justify-content: space-evenly;
     max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
   }
+  
+
+
 
 /* the way you start to make your site fluid, is by using percentages for your height and width instead of static pixel sizes. This way when someone resizes their browser window, your html tags will shrink or expand accordingly instead of breaking the page. */  
 /*
