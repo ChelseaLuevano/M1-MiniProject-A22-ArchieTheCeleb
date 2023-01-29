@@ -14,10 +14,16 @@ h1,
 h2,
 h3 {
   text-align: center;
-
+  font-family: , Helvetica;
 }
 
-
+ /* To ensure media is never larager than its responsive container */
+ img,
+ picture,
+ video {
+   max-width: 100%;
+ }
+ 
 /* Styling of Images on Site */
   img{
     display: flex;
@@ -29,7 +35,10 @@ h3 {
     margin-right: auto;
   }
   
-
+ 
+.Daycare img {
+  flex-direction:row;
+}
 
 
 /* the way you start to make your site fluid, is by using percentages for your height and width instead of static pixel sizes. This way when someone resizes their browser window, your html tags will shrink or expand accordingly instead of breaking the page. */  
@@ -40,6 +49,10 @@ div {
   }
   */
 
+  /* Any button over which the user's pointer is hovering */
+button:hover {
+  color: blue;
+}
 
   /*
   @media screen and (max-width: 780px) {
@@ -48,11 +61,16 @@ div {
     }
   } */
 
+
 .form {
     display: flex;
     justify-content: space-between;
     
 }
 
-/*
-font-weight: bold */
+/* Footer Styling */
+footer {
+font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align:center;
+font-weight: bold
+}
